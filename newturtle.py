@@ -7,8 +7,11 @@ bob=Turtle()
 sally=Turtle()
 
 john.color('red')
+john.shape('turtle')
 bob.color('blue')
+bob.shape('turtle')
 sally.color('green')
+sally.shape('turtle')
 
 john.penup()
 john.goto(-140,140)
@@ -22,10 +25,10 @@ sally.penup()
 sally.goto(-140,60)
 sally.pendown()
 
-for movement in range(10):
-    john.forward(randint(1,50))
-    bob.forward(randint(1,50))
-    sally.forward(randint(1,50))
+for movement in range(100):
+    john.forward(randint(1,5))
+    bob.forward(randint(1,5))
+    sally.forward(randint(1,5))
 
 turtle.done()
 # The newturtle.py code creates three turtles, each with a different color.
