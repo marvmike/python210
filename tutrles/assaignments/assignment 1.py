@@ -79,4 +79,4 @@ for _ in range(attempts):
     else:
         print("Guess lower!")
 
-print(f"The random number was: {random_number}")
+print(f"The random number was: {random_number}") 
