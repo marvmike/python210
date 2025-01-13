@@ -80,5 +80,3 @@ for _ in range(attempts):
         print("Guess lower!")
 
 print(f"The random number was: {random_number}")
-
-
